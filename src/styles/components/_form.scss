@@ -1,0 +1,51 @@
+.form-wrapper {
+  max-width: 533px;
+  padding: 30px;
+  position: relative;
+
+  #form-title {
+    font-size: 26px;
+  }
+}
+
+#form-contact {
+  input,
+  textarea {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 1px;
+    border-bottom: 2px solid $secondary-color;
+    transition: all .3s ease-in;
+    width: 100%;
+  }
+
+  input:focus,
+  input:active,
+  textarea:focus,
+  textarea:active {
+    border-color: $primary-color;
+  }
+
+  .form__label {
+    margin-bottom: 0;
+  }
+
+  .form__field.is-danger {
+    input,
+    textarea {
+      border-bottom: 2px solid $danger;
+    }
+    .form__error {
+      color: $danger;
+    }
+  }
+}
+
+.form--light {
+  background: $white-color;
+
+  p, span {
+    color: $primary-color;
+  }
+}

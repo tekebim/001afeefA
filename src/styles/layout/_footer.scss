@@ -1,0 +1,12 @@
+footer {
+  @include tablet {
+    position: absolute;
+    bottom: 0;
+    right: 0 ;
+    color: $greylight-color;
+    font-size: 12px;
+    a {
+      color: $greylight-color;
+    }
+  }
+}

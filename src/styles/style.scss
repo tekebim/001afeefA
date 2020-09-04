@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import 'abstracts/variables';
+@import '~bulma/bulma';
+
+// Base
+@import 'base/utils/mixins';
+@import 'base/utils/utils';
+@import 'base/fonts';
+@import 'base/base';
+
+// Base Styles
+@import 'layout/footer';
+
+// Abstracts
+// @import "abstracts/";
+
+// Base Styles
+// @import "base/";
+
+// Components
+@import "components/form";
+
+// Layout
+// @import "layouts/";
+
+// Pages
+@import "pages/page";

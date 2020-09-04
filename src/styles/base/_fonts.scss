@@ -1,0 +1,10 @@
+// @include fontface('GTAmericaExpanded', '~/assets/fonts/GT-America-Expanded-Regular', 300, normal);
+// @include fontface('GTAmericaExpanded', '~/assets/fonts/GT-America-Expanded-Medium', 500);
+
+@font-face {
+  font-family: "gt_americaexpanded";
+  src: url("../../assets/fonts/gt-america-expanded-regular-webfont.woff2") format("woff2"),
+  url("../../assets/fonts/gt-america-expanded-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}

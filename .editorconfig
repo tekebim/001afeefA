@@ -1,0 +1,23 @@
+# EditorConfig
+
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.ts]
+indent_style = tab
+
+[*.{js,css,html,json,yml}]
+indent_style = space
+indent_size = 2
+
+[*.php]
+indent_style = space
+
+[*.{md,markdown}]
+trim_trailing_whitespace = false
+insert_final_newline = false
